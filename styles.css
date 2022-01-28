@@ -1,0 +1,137 @@
+body { 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+
+}
+.header ul{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.left-link {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+}
+.right-link {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.link { 
+    text-decoration: none;
+    color: #f9faf8;
+}
+ul {
+    list-style: none;
+}
+button {
+    max-width: 180px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15%;
+    font-size: 12px;
+    padding: 8px 20px;
+}
+button:hover {
+    background-color: #23519c;
+}
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    background-color: #1f2937;
+    gap: 16px; 
+}
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 1000;
+}
+.site-info{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.paris {
+    display: flex;
+    max-width: 500px;
+    max-height: auto;
+}
+.random {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.random-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    max-width: 200px;
+    height: auto;
+}
+
+.pic {
+    width: 200px;
+    height: auto;
+}
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.quote-section { 
+    background-color: #e5e7eb;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 100px 500px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: light;
+}
+.thor { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-bg {
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    margin: 60px 200px;
+    align-items: center;
+    padding: 10px 100px;
+    flex: 1;
+    justify-content: space-evenly;
+    border-radius: 3%;
+}
+.btn {
+    border-color: #e5e7eb;
+}
+.footer { 
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+}
